@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <h1>abcdhjghgjhgjk</h1>
       <h2>abdakjlfaskj</h2>
-      <Potato />
+      <Potato favorite="kimchi" />
+      <Potato favorite="mandu" />
     </div>
   );
 }
