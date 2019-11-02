@@ -15,6 +15,19 @@ class App extends Component {
     this.setState(current => ({ count: current.count - 1 }));
   };
 
+  componentDidMount() { //불러오고 나서의 행동
+    console.log("componentDidMount");
+  }
+
+  componentDidUpdate() { // 행동을 취했을 때
+    console.log("componentDidUpdate");
+  }
+
+  componentWillMount() { //불러오기 전의 행동
+    console.log("componentWillMount");
+  }
+
+
   render() {
     //상수, 변수 선언하는 곳
     return (
