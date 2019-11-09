@@ -54,6 +54,7 @@ class App extends Component {
                               year={movie.year}
                               id={movie.id}
                               title={movie.title}
+                              genres={movie.genres}
                           />
                       ))}
                     </div>
